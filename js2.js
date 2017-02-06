@@ -117,6 +117,11 @@ var semicolone = function() {
 var semicolone2 = function() {
     var y = x + f
     (a+b).toString();
+    // var y = x + f(a+b).toString();
+
+    return
+    true;       // return true; 가 아닌 return; true; 로 해석한다.
+
 }
 semicolone2();
 // semicolone();
